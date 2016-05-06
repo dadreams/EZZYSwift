@@ -175,7 +175,7 @@ class EZZYMainViewController: EZZYBaseHiddenNav, MAMapViewDelegate, UIAlertViewD
     // 车辆列表点击
     func carListBtnClicked(sender: UIButton) {
         let carListVC: EZZYECarListViewController = EZZYECarListViewController()
-        
+        self.navigationController?.pushViewController(carListVC, animated: YES)
     }
     
     // 我的行程 (运营范围的显示与隐藏)
@@ -243,36 +243,37 @@ class EZZYMainViewController: EZZYBaseHiddenNav, MAMapViewDelegate, UIAlertViewD
                 }
                 
                 if let attributesDic: NSDictionary = dic["attributes"] as? NSDictionary {
-                    let type: String? = attributesDic["type"] as? String
-                    var title = "提示"
-                    var information = "欢迎使用EZZY"
-                    var leftBtn = "确认"
-                    var rightBtn = "取消"
-                    if let titleStr: String = attributesDic["title"] as? String {
-                        title = titleStr
-                    }
-                    if let informationStr: String = attributesDic["information"] as? String {
-                        information = informationStr
-                    }
-                    if let leftBtnStr: String = attributesDic["leftbtn"] as? String {
-                        leftBtn = leftBtnStr
-                    }
-                    if let rightBtnStr: String = attributesDic["rightbtn"] as? String {
-                        rightBtn = rightBtnStr
-                    }
-                    switch type! {
-                    case "1":
-                        let alertView: UIAlertView = UIAlertView(title: title, message: information, delegate: self, cancelButtonTitle: leftBtn)
-                        alertView.tag = PopoverAlertType.one.rawValue
-                        alertView.show()
-                        break
-                    case "2":
-                        let alertView: UIAlertView = UIAlertView(title: title, message: information, delegate: self, cancelButtonTitle: leftBtn, otherButtonTitles: rightBtn)
-                        alertView.tag = PopoverAlertType.two.rawValue
-                        alertView.show()
-                        break
-                    default:
-                        break
+                    if let type: String = attributesDic["type"] as? String {
+                        var title = "提示"
+                        var information = "欢迎使用EZZY"
+                        var leftBtn = "确认"
+                        var rightBtn = "取消"
+                        if let titleStr: String = attributesDic["title"] as? String {
+                            title = titleStr
+                        }
+                        if let informationStr: String = attributesDic["information"] as? String {
+                            information = informationStr
+                        }
+                        if let leftBtnStr: String = attributesDic["leftbtn"] as? String {
+                            leftBtn = leftBtnStr
+                        }
+                        if let rightBtnStr: String = attributesDic["rightbtn"] as? String {
+                            rightBtn = rightBtnStr
+                        }
+                        switch type {
+                        case "1":
+                            let alertView: UIAlertView = UIAlertView(title: title, message: information, delegate: self, cancelButtonTitle: leftBtn)
+                            alertView.tag = PopoverAlertType.one.rawValue
+                            alertView.show()
+                            break
+                        case "2":
+                            let alertView: UIAlertView = UIAlertView(title: title, message: information, delegate: self, cancelButtonTitle: leftBtn, otherButtonTitles: rightBtn)
+                            alertView.tag = PopoverAlertType.two.rawValue
+                            alertView.show()
+                            break
+                        default:
+                            break
+                        }
                     }
                 }
                 let success: String! = String(dic["success"]!)
@@ -295,7 +296,7 @@ class EZZYMainViewController: EZZYBaseHiddenNav, MAMapViewDelegate, UIAlertViewD
                                 weakSelf?.createZiDingYiCoverViewOnMapViewWithPointArr(polyAr, tag: i)
                             }
                         }
-                        self.mapView.setCenterCoordinate(CLLocationCoordinate2DMake(39.90815613, 116.3973999), animated: YES)
+                    self.mapView.setCenterCoordinate(CLLocationCoordinate2DMake(39.90815613, 116.3973999), animated: YES)
                         self.mapView.setZoomLevel(11.5, animated: YES)
                     }
                 }
@@ -379,7 +380,6 @@ class EZZYMainViewController: EZZYBaseHiddenNav, MAMapViewDelegate, UIAlertViewD
             if locationUserFirst == YES {
                 self.fetchCarLocationDetaile(CLLocationCoordinate2DMake(0, 0), isAll: YES)
                 self.locationUserFirst = NO
-                self.mapView.setZoomLevel(1, animated: NO)
             }
             self.userLocation = userLocation.coordinate
             

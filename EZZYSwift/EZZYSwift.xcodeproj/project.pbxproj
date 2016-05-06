@@ -79,6 +79,20 @@
 		E774E1641CDB33DB007535CD /* EZZYAggregatRegionTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774E1631CDB33DB007535CD /* EZZYAggregatRegionTool.swift */; };
 		E774E1691CDB5F06007535CD /* PDPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = E774E1681CDB5F06007535CD /* PDPolygon.m */; };
 		E774E1711CDC4553007535CD /* EZZYECarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E774E1701CDC4553007535CD /* EZZYECarListViewController.swift */; };
+		E78FDFB21CDC8DAB00B5880C /* PDSelectedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFB11CDC8DAB00B5880C /* PDSelectedBtn.swift */; };
+		E78FDFB51CDCA1A800B5880C /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFB41CDCA1A800B5880C /* UIViewExt.m */; };
+		E78FDFBC1CDCA7C900B5880C /* EZZYCarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFBA1CDCA7C900B5880C /* EZZYCarListTableViewCell.swift */; };
+		E78FDFBD1CDCA7C900B5880C /* EZZYCarListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E78FDFBB1CDCA7C900B5880C /* EZZYCarListTableViewCell.xib */; };
+		E78FDFCF1CDCB31800B5880C /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E78FDFBF1CDCB31800B5880C /* MJRefresh.bundle */; };
+		E78FDFD01CDCB31800B5880C /* MJRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFC21CDCB31800B5880C /* MJRefreshBaseView.m */; };
+		E78FDFD11CDCB31800B5880C /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFC41CDCB31800B5880C /* MJRefreshConst.m */; };
+		E78FDFD21CDCB31800B5880C /* MJRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFC61CDCB31800B5880C /* MJRefreshFooterView.m */; };
+		E78FDFD31CDCB31800B5880C /* MJRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFC81CDCB31800B5880C /* MJRefreshHeaderView.m */; };
+		E78FDFD41CDCB31800B5880C /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFCA1CDCB31800B5880C /* UIScrollView+MJExtension.m */; };
+		E78FDFD51CDCB31800B5880C /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFCC1CDCB31800B5880C /* UIScrollView+MJRefresh.m */; };
+		E78FDFD61CDCB31800B5880C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FDFCE1CDCB31800B5880C /* UIView+MJExtension.m */; };
+		E7F33C7D1CDC4D2A00CD5244 /* EZZYBaseShowNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F33C7C1CDC4D2A00CD5244 /* EZZYBaseShowNavViewController.swift */; };
+		E7F33C811CDC6CFB00CD5244 /* PDArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F33C801CDC6CFB00CD5244 /* PDArrowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -218,6 +232,29 @@
 		E774E1671CDB5F06007535CD /* PDPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDPolygon.h; sourceTree = "<group>"; };
 		E774E1681CDB5F06007535CD /* PDPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDPolygon.m; sourceTree = "<group>"; };
 		E774E1701CDC4553007535CD /* EZZYECarListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZZYECarListViewController.swift; sourceTree = "<group>"; };
+		E78FDFB11CDC8DAB00B5880C /* PDSelectedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDSelectedBtn.swift; sourceTree = "<group>"; };
+		E78FDFB31CDCA1A800B5880C /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		E78FDFB41CDCA1A800B5880C /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		E78FDFBA1CDCA7C900B5880C /* EZZYCarListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZZYCarListTableViewCell.swift; sourceTree = "<group>"; };
+		E78FDFBB1CDCA7C900B5880C /* EZZYCarListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZZYCarListTableViewCell.xib; sourceTree = "<group>"; };
+		E78FDFBF1CDCB31800B5880C /* MJRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MJRefresh.bundle; sourceTree = "<group>"; };
+		E78FDFC01CDCB31800B5880C /* MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		E78FDFC11CDCB31800B5880C /* MJRefreshBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBaseView.h; sourceTree = "<group>"; };
+		E78FDFC21CDCB31800B5880C /* MJRefreshBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshBaseView.m; sourceTree = "<group>"; };
+		E78FDFC31CDCB31800B5880C /* MJRefreshConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		E78FDFC41CDCB31800B5880C /* MJRefreshConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		E78FDFC51CDCB31800B5880C /* MJRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooterView.h; sourceTree = "<group>"; };
+		E78FDFC61CDCB31800B5880C /* MJRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshFooterView.m; sourceTree = "<group>"; };
+		E78FDFC71CDCB31800B5880C /* MJRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeaderView.h; sourceTree = "<group>"; };
+		E78FDFC81CDCB31800B5880C /* MJRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeaderView.m; sourceTree = "<group>"; };
+		E78FDFC91CDCB31800B5880C /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		E78FDFCA1CDCB31800B5880C /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		E78FDFCB1CDCB31800B5880C /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		E78FDFCC1CDCB31800B5880C /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		E78FDFCD1CDCB31800B5880C /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		E78FDFCE1CDCB31800B5880C /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		E7F33C7C1CDC4D2A00CD5244 /* EZZYBaseShowNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EZZYBaseShowNavViewController.swift; sourceTree = "<group>"; };
+		E7F33C801CDC6CFB00CD5244 /* PDArrowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDArrowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,12 +323,12 @@
 				E774E0A01CD86DFF007535CD /* 个人中心 */,
 				E774E0A61CD86DFF007535CD /* 全局变量 */,
 				E774E0A71CD86DFF007535CD /* 网络请求 */,
-				E774E0A81CD86DFF007535CD /* 系统库 */,
 				E774E0A91CD86DFF007535CD /* 支付 */,
 				E774E0AE1CD86DFF007535CD /* 主页 */,
 				E774E16B1CDC4491007535CD /* 车辆列表 */,
 				E774E0B31CD86DFF007535CD /* BaseController */,
 				E774E0B41CD86DFF007535CD /* LibThree */,
+				E774E0A81CD86DFF007535CD /* 系统库 */,
 				E774E0B51CD86E13007535CD /* SystemConfig */,
 			);
 			path = EZZYSwift;
@@ -493,6 +530,7 @@
 			children = (
 				E774E0BA1CD86FE4007535CD /* EZZYBaseViewController.swift */,
 				E774E0C41CD87F91007535CD /* EZZYBaseHiddenNav.swift */,
+				E7F33C7C1CDC4D2A00CD5244 /* EZZYBaseShowNavViewController.swift */,
 			);
 			path = BaseController;
 			sourceTree = "<group>";
@@ -500,6 +538,7 @@
 		E774E0B41CD86DFF007535CD /* LibThree */ = {
 			isa = PBXGroup;
 			children = (
+				E78FDFBE1CDCB31800B5880C /* MJRefresh */,
 				E774E1411CD9D493007535CD /* Siganl */,
 				E774E1311CD9CC80007535CD /* 常用方法 */,
 				E774E1271CD9CC76007535CD /* HttpService */,
@@ -603,6 +642,8 @@
 		E774E1311CD9CC80007535CD /* 常用方法 */ = {
 			isa = PBXGroup;
 			children = (
+				E78FDFB31CDCA1A800B5880C /* UIViewExt.h */,
+				E78FDFB41CDCA1A800B5880C /* UIViewExt.m */,
 				E774E1321CD9CC80007535CD /* ECarGPSChange.h */,
 				E774E1331CD9CC80007535CD /* ECarGPSChange.m */,
 				E774E1341CD9CC80007535CD /* NOValidateHelper.h */,
@@ -670,6 +711,8 @@
 		E774E16E1CDC4491007535CD /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				E7F33C801CDC6CFB00CD5244 /* PDArrowView.swift */,
+				E78FDFB11CDC8DAB00B5880C /* PDSelectedBtn.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -677,8 +720,33 @@
 		E774E16F1CDC4491007535CD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E78FDFBA1CDCA7C900B5880C /* EZZYCarListTableViewCell.swift */,
+				E78FDFBB1CDCA7C900B5880C /* EZZYCarListTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E78FDFBE1CDCB31800B5880C /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E78FDFBF1CDCB31800B5880C /* MJRefresh.bundle */,
+				E78FDFC01CDCB31800B5880C /* MJRefresh.h */,
+				E78FDFC11CDCB31800B5880C /* MJRefreshBaseView.h */,
+				E78FDFC21CDCB31800B5880C /* MJRefreshBaseView.m */,
+				E78FDFC31CDCB31800B5880C /* MJRefreshConst.h */,
+				E78FDFC41CDCB31800B5880C /* MJRefreshConst.m */,
+				E78FDFC51CDCB31800B5880C /* MJRefreshFooterView.h */,
+				E78FDFC61CDCB31800B5880C /* MJRefreshFooterView.m */,
+				E78FDFC71CDCB31800B5880C /* MJRefreshHeaderView.h */,
+				E78FDFC81CDCB31800B5880C /* MJRefreshHeaderView.m */,
+				E78FDFC91CDCB31800B5880C /* UIScrollView+MJExtension.h */,
+				E78FDFCA1CDCB31800B5880C /* UIScrollView+MJExtension.m */,
+				E78FDFCB1CDCB31800B5880C /* UIScrollView+MJRefresh.h */,
+				E78FDFCC1CDCB31800B5880C /* UIScrollView+MJRefresh.m */,
+				E78FDFCD1CDCB31800B5880C /* UIView+MJExtension.h */,
+				E78FDFCE1CDCB31800B5880C /* UIView+MJExtension.m */,
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -749,6 +817,7 @@
 				TargetAttributes = {
 					E774E06E1CD86D03007535CD = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9JEF496P3J;
 					};
 					E774E0821CD86D04007535CD = {
 						CreatedOnToolsVersion = 7.3;
@@ -785,7 +854,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78FDFBD1CDCA7C900B5880C /* EZZYCarListTableViewCell.xib in Resources */,
 				E774E07D1CD86D04007535CD /* LaunchScreen.storyboard in Resources */,
+				E78FDFCF1CDCB31800B5880C /* MJRefresh.bundle in Resources */,
 				E774E0CB1CD884AE007535CD /* AMapNavi.bundle in Resources */,
 				E774E07A1CD86D04007535CD /* Assets.xcassets in Resources */,
 				E774E0CA1CD884AE007535CD /* AMap.bundle in Resources */,
@@ -814,14 +885,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78FDFB21CDC8DAB00B5880C /* PDSelectedBtn.swift in Sources */,
 				E774E1161CD9CC57007535CD /* AFHTTPRequestOperation.m in Sources */,
 				E774E13C1CD9CCED007535CD /* EZZYAllURLService.swift in Sources */,
 				E774E13E1CD9D076007535CD /* EZZYCarNetworking.swift in Sources */,
+				E78FDFB51CDCA1A800B5880C /* UIViewExt.m in Sources */,
 				E774E0C51CD87F91007535CD /* EZZYBaseHiddenNav.swift in Sources */,
 				E774E0B91CD86F17007535CD /* Header.swift in Sources */,
 				E774E0EB1CD8D72E007535CD /* EZZYAnnotation.swift in Sources */,
 				E774E15B1CD9D493007535CD /* DSASignal.m in Sources */,
 				E774E0EF1CD9C1CE007535CD /* EZZYCarAnnotationView.swift in Sources */,
+				E78FDFD01CDCB31800B5880C /* MJRefreshBaseView.m in Sources */,
 				E774E11F1CD9CC57007535CD /* AFNetworkActivityIndicatorManager.m in Sources */,
 				E774E11E1CD9CC57007535CD /* AFURLSessionManager.m in Sources */,
 				E774E1181CD9CC57007535CD /* AFHTTPSessionManager.m in Sources */,
@@ -831,26 +905,35 @@
 				E774E1401CD9D09B007535CD /* EZZYPriceNetworking.swift in Sources */,
 				E774E15C1CD9D493007535CD /* DSASubject.m in Sources */,
 				E774E1601CD9F948007535CD /* EZZYUserNetworking.swift in Sources */,
+				E78FDFD31CDCB31800B5880C /* MJRefreshHeaderView.m in Sources */,
 				E774E15E1CD9D493007535CD /* ViewModelClass.m in Sources */,
+				E7F33C811CDC6CFB00CD5244 /* PDArrowView.swift in Sources */,
 				E774E1191CD9CC57007535CD /* AFNetworkReachabilityManager.m in Sources */,
+				E78FDFD41CDCB31800B5880C /* UIScrollView+MJExtension.m in Sources */,
 				E774E1301CD9CC76007535CD /* KKHttpServices.m in Sources */,
 				E774E1591CD9D493007535CD /* DSAKVOTrampoline.m in Sources */,
 				E774E1581CD9D493007535CD /* DSADisposable.m in Sources */,
 				E774E0B71CD86EDC007535CD /* EZZYMainViewController.swift in Sources */,
 				E774E1231CD9CC57007535CD /* UIImageView+AFNetworking.m in Sources */,
+				E78FDFD51CDCB31800B5880C /* UIScrollView+MJRefresh.m in Sources */,
 				E774E1241CD9CC57007535CD /* UIProgressView+AFNetworking.m in Sources */,
 				E774E11D1CD9CC57007535CD /* AFURLResponseSerialization.m in Sources */,
 				E774E1251CD9CC57007535CD /* UIRefreshControl+AFNetworking.m in Sources */,
+				E7F33C7D1CDC4D2A00CD5244 /* EZZYBaseShowNavViewController.swift in Sources */,
 				E774E11C1CD9CC57007535CD /* AFURLRequestSerialization.m in Sources */,
 				E774E11B1CD9CC57007535CD /* AFURLConnectionOperation.m in Sources */,
 				E774E1641CDB33DB007535CD /* EZZYAggregatRegionTool.swift in Sources */,
 				E774E1571CD9D493007535CD /* DSACompoundDisposable.m in Sources */,
+				E78FDFD61CDCB31800B5880C /* UIView+MJExtension.m in Sources */,
 				E774E1221CD9CC57007535CD /* UIButton+AFNetworking.m in Sources */,
+				E78FDFBC1CDCA7C900B5880C /* EZZYCarListTableViewCell.swift in Sources */,
 				E774E12F1CD9CC76007535CD /* KKHttpParse.m in Sources */,
 				E774E15D1CD9D493007535CD /* DSASubscriber.m in Sources */,
 				E774E1381CD9CC80007535CD /* ECarGPSChange.m in Sources */,
+				E78FDFD11CDCB31800B5880C /* MJRefreshConst.m in Sources */,
 				E774E1391CD9CC80007535CD /* NOValidateHelper.m in Sources */,
 				E774E1201CD9CC57007535CD /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				E78FDFD21CDCB31800B5880C /* MJRefreshFooterView.m in Sources */,
 				E774E1171CD9CC57007535CD /* AFHTTPRequestOperationManager.m in Sources */,
 				E774E0751CD86D04007535CD /* ViewController.swift in Sources */,
 				E774E0ED1CD9892D007535CD /* EZZYCarModel.swift in Sources */,
@@ -1007,6 +1090,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qiang Fu (JLHWZC693S)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EZZYSwift/LibThree",
@@ -1017,6 +1102,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dadreams.moov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ed962ec-d305-4a64-8bfb-a9a2105446a6";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/EZZYSwift/Briging-Header.h";
 			};
 			name = Debug;
@@ -1025,6 +1111,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Qiang Fu (JLHWZC693S)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EZZYSwift/LibThree",
@@ -1035,6 +1123,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dadreams.moov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ed962ec-d305-4a64-8bfb-a9a2105446a6";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/EZZYSwift/Briging-Header.h";
 			};
 			name = Release;

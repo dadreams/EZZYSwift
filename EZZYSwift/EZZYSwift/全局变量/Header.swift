@@ -37,6 +37,7 @@ let kFontSizeMax    : UIFont = UIFont.systemFontOfSize(23.0 / 667.0 * kScreenH)
 let kFontSizeMiddle : UIFont = UIFont.systemFontOfSize(17.0 / 667.0 * kScreenH)
 let kFontSizeMin    : UIFont = UIFont.systemFontOfSize(12.0 / 667.0 * kScreenH)
 let kFontNomal      : UIFont = UIFont.systemFontOfSize(15.0 / 667.0 * kScreenH)
+let kFontTitleNormal: UIFont = UIFont.boldSystemFontOfSize(17.0 / 667.0 * kScreenH)
 
 /**
  *  高德地图配置
